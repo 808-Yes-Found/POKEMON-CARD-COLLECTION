@@ -1,0 +1,223 @@
+/*
+ ST: reset 
+*/
+
+html *,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* font-family: ; */
+  font-size: 16px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img,
+picture,
+iframe,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* 접근성 : 화면에 보이지 않고 스크린 리더 사용자만 접근 가능*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/*
+ ED: reset 
+*/
+
+/*
+  ST: font
+*/
+
+/* Pixeled */
+@font-face {
+  font-family: "Pixeled";
+  font-display: swap;
+  src:
+    local("Pixeled"),
+    url("/fonts/Pixeled.woff2") format("woff2"),
+    url("/fonts/Pixeled.woff") format("woff");
+}
+
+/* I-pixel-u */
+@font-face {
+  font-family: "I-pixel-u";
+  font-display: swap;
+  src:
+    local("I-pixel-u"),
+    url("/fonts/I-pixel-u.woff2") format("woff2"),
+    url("/fonts/I-pixel-u.woff") format("woff");
+}
+
+/* Galmuri9 */
+@font-face {
+  font-family: "Galmuri9";
+  font-display: swap;
+  src:
+    local("Galmuri9"),
+    url("/fonts/Galmuri9.woff2") format("woff2"),
+    url("/fonts/Galmuri9.woff") format("woff");
+}
+
+/* Pretendard */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local("Pretendard Black"),
+    url("/fonts/Pretendard-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-display: swap;
+  src:
+    local("Pretendard ExtraBold"),
+    url("/fonts/Pretendard-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("Pretendard Bold"),
+    url("/fonts/Pretendard-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("Pretendard SemiBold"),
+    url("/fonts/Pretendard-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local("Pretendard Medium"),
+    url("/fonts/Pretendard-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("Pretendard Regular"),
+    url("/fonts/Pretendard-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local("Pretendard Light"),
+    url("/fonts/Pretendard-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-display: swap;
+  src:
+    local("Pretendard ExtraLight"),
+    url("/fonts/Pretendard-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100;
+  font-display: swap;
+  src:
+    local("Pretendard Thin"),
+    url("/fonts/Pretendard-Thin.woff2") format("woff2");
+}
+
+.eng-pixel {
+  font-family: "Pixeled";
+}
+.sub-pixel {
+  font-family: "I-pixel-u";
+}
+.pretendard {
+  font-family: "Pretendard";
+}
+
+/*
+  ED: font
+*/
